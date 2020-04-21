@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Facer Pedido"
+        android:id="@+id/menu_barracliente_hacerpedido" />
+    <item android:title="Amosar Pedidos Rexeitados"
+        android:id="@+id/menu_barracliente_verrexeitados" />
+    <item android:title="Amosar Pedidos en tramite"
+        android:id="@+id/menu_barracliente_vertramite"/>
+    <item android:title="Amosar Compras realizadas"
+        android:id="@+id/menu_barracliente_verrealizadas"/>
+    <item android:id="@+id/menu_barracliente_salir"
+        android:title="Sair" />
+</menu>

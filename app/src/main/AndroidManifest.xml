@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cursoandroid.cursoandroid.tenda_prietopardavilajulian">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activity_Rexistro"
+        android:label="@string/rexistro_titulo"></activity>
+        <activity
+            android:name=".ActivityVerCompras"
+
+             />
+        <activity
+            android:name=".Activity_VerPedidosEnTramite"
+            android:label="@string/verPedidoEnTramite_titulo" />
+        <activity
+            android:name=".Activity_Envio"
+            android:label="@string/envio_titulo" />
+        <activity
+            android:name=".Activity_Pedido"
+            android:label="@string/pedidos_titulo" />
+        <activity
+            android:name=".Activity_Cliente"
+            android:label="@string/cliente_titulo" />
+        <activity
+            android:name=".Login_Activity_Tenda"
+            android:label="@string/pantalla_login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity_Cliente">
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".Activity_Cliente">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/appbarCliente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:layout_constraintTop_toTopOf="parent"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+    <ImageView
+        android:id="@+id/imgUsuarii_Cliente"
+        android:layout_width="127dp"
+        android:layout_height="145dp"
+        android:src="@drawable/cliente"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.003"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appbarCliente" />
+
+    <TextView
+        android:id="@+id/textView_Nome"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/cliente_txtNome"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/imgUsuarii_Cliente"
+        app:layout_constraintTop_toBottomOf="@+id/appbarCliente" />
+
+    <TextView
+        android:id="@+id/textView_Apelido1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/cliente_txtApelido1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imgUsuarii_Cliente"
+        app:layout_constraintTop_toBottomOf="@+id/edittxtNome_Cliente" />
+
+    <TextView
+        android:id="@+id/textView_Apelido2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/cliente_txtApelido2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imgUsuarii_Cliente"
+        app:layout_constraintTop_toBottomOf="@+id/edittxtApelido1_Cliente" />
+
+    <Button
+        android:id="@+id/button_Pedidos"
+        android:layout_width="0dp"
+        android:layout_height="56dp"
+        android:text="@string/cliente_btnPedidos"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edittxtApelido2_Cliente" />
+
+    <Button
+        android:id="@+id/button_Rexeitados"
+        android:layout_width="0dp"
+        android:layout_height="56dp"
+
+        android:text="@string/cliente_btnRexeitados"
+        app:layout_constraintEnd_toEndOf="@+id/button_Pedidos"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edittxtApelido2_Cliente" />
+
+    <Button
+        android:id="@+id/button_VerTramite"
+        android:layout_width="0dp"
+        android:layout_height="56dp"
+        android:text="@string/cliente_btnVerTramite"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_Pedidos" />
+
+    <Button
+        android:id="@+id/button_VerCompras"
+        android:layout_width="0dp"
+        android:layout_height="56dp"
+        android:text="@string/cliente_btnVerCompras"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_VerTramite" />
+
+    <Button
+        android:id="@+id/button_Sair"
+        android:layout_width="0dp"
+        android:layout_height="52dp"
+        android:text="@string/cliente_sair"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_VerCompras"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/edittxtNome_Cliente"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imgUsuarii_Cliente"
+        app:layout_constraintTop_toBottomOf="@+id/textView_Nome" />
+
+    <TextView
+        android:id="@+id/edittxtApelido1_Cliente"
+        android:layout_width="0dp"
+        android:layout_height="37dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imgUsuarii_Cliente"
+        app:layout_constraintTop_toBottomOf="@+id/textView_Apelido1" />
+
+    <TextView
+        android:id="@+id/edittxtApelido2_Cliente"
+        android:layout_width="0dp"
+        android:layout_height="42dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imgUsuarii_Cliente"
+        app:layout_constraintTop_toBottomOf="@+id/textView_Apelido2" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

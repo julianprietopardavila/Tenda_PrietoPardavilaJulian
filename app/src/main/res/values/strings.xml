@@ -1,0 +1,54 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Tenda_PrietoPardavilaJulian</string>
+
+    <!--Textos Pantalla Login -->
+    <string name="pantalla_login">Pantalla de Aceso</string>
+    <string name="txtNomeUsuario_Login">Nome de Usuario</string>
+    <string name="txtContrasinal_Login">Contrasinal</string>
+    <string name="btnAdmin_Login">Aceso</string>
+    <string name="btnCliente_Login">Aceso</string>
+    <string name="login_btnRexistro">Rexistrate</string>
+
+    <!--Textos Pantalla CLiente/Admin -->
+    <string name="cliente_titulo">Benvido Usuario</string>
+    <string name="cliente_txtNome">Nome</string>
+    <string name="cliente_txtApelido1">Apelido 1</string>
+    <string name="cliente_txtApelido2">Apelido 2</string>
+    <string name="cliente_btnPedidos">Facer Pedidos</string>
+    <string name="cliente_btnRexeitados">Amosar Pedidos Rexeitados</string>
+    <string name="cliente_btnVerTramite">Amosar Pedidos en Tramites</string>
+    <string name="cliente_btnVerCompras">Amosar compras Realizadas</string>
+    <string name="cliente_btnVerComprasAdmin">Amosar pedidos Aceptados</string>
+    <string name="cliente_sair">Sair</string>
+    <!-- Texto Pantalla Pedidos -->
+    <string name="pedidos_titulo">Faga o seu pedido</string>
+    <string name="pedidos_txtCategorias">Categorias</string>
+    <string name="pedidos_txtProducto">Producto</string>
+    <string name="pedido_txtCantidade">Cantidade</string>
+    <string name="pedido_txtSeguinte">Seguinte</string>
+    <!-- Texto Pantalla Envio -->
+    <string name="envio_titulo">Onde o enviamos?</string>
+    <string name="envio_txtcp">Codigo Postal</string>
+    <string name="envio_txtcidade">Cidade</string>
+    <string name="envio_txtdireccion">Direccion</string>
+    <string name="envio_btnfinalizar">Rematar</string>
+    <!-- Texto Pantalla VerPedidosEnTramite -->
+    <string name="verPedidoEnTramite_titulo">Ver Pedidos en trámite</string>
+    <string name="btnAceptarPedidoAdmin">Aceptar o Pedido</string>
+    <string name="btnRexeitarPedidoAdmin">Rexeitar o Pedido</string>
+    <!-- Textos Pantalla VerCompras -->
+    <string name="verCompras_titulo_Admin">Ver pedidos en Aceptados</string>
+    <string name="verCompras_titulo_Rechazadas">Ver Pedidos Rexeitados</string>
+    <string name="verCompras_titulo_Cliente">Ver mis compras</string>
+    <!-- Textos Pantalla Rexistro -->
+    <string name="rexistro_txtNome">Nome</string>
+    <string name="rexistro_txtApelido1">Primer Apelido</string>
+    <string name="rexistro_txtApelido2">Segundo Apelido</string>
+    <string name="rexistro_txtEmail">Enderezo electronico</string>
+    <string name="rexistro_txtUsuario">Nome de usuario</string>
+    <string name="rexistro_txtPwd">Contrasinal</string>
+    <string name="rexistro_chkAdmin">Administrado</string>
+    <string name="rexistro_btnGardar">Gardar</string>
+
+<string name="rexistro_titulo">Rexistrate</string>
+</resources>
